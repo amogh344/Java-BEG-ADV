@@ -2,7 +2,7 @@ public class StringManipulationDemo
 {
     public static void main(String[] args)
     {
-        String str = "Hello, Acharya!";
+        String str = "Hello, World!";
         System.out.println("Original string: " + str);
         
         char charAtIndex4 = str.charAt(4);
@@ -11,16 +11,16 @@ public class StringManipulationDemo
         String substring = str.substring(7, 12);
         System.out.println("Substring from index 7 to 12: " + substring);
         
-        String str1 = "Acharya";
-        String str2 = "acharya";
+        String str1 = "World";
+        String str2 = "world";
         System.out.println("String comparison:");
         System.out.println("str1.equals(str2): " + str1.equals(str2));
         System.out.println("str1.equalsIgnoreCase(str2): " + str1.equalsIgnoreCase(str2));
         
-        String text = "Information Science and Engineering";
-        String wordToFind = "Science";
+        String text = "Hello World of Java Programming";
+        String wordToFind = "World";
         boolean containsWord = text.contains(wordToFind);
-        System.out.println("Does the text contain the word \"Science\"? " + containsWord);
+        System.out.println("Does the text contain the word \"World\"? " + containsWord);
         
         String original = " Trim String ";
         System.out.println("Original string with leading and trailing spaces: \"" + original + "\"");
